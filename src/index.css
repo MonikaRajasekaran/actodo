@@ -8,5 +8,6 @@
 .login,
 .landing,
 .signup{
-    background: url(./assets/background.png);
+    background-image: url(./assets/background.png);
+   
    }

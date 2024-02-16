@@ -28,7 +28,7 @@ function Landing() {
   }, []);
 
   return (
-    <section className="landing w-full h-full bg-cover bg-center">
+    <section className="landing w-full h-screen bg-cover bg-center bg-no-repeat">
       <div className="md:p-16 p-8">
         <div className="bg-[#EFEFEF] bg-transparent md:p-10 p-5 border rounded-md">
           {/* Header */}
