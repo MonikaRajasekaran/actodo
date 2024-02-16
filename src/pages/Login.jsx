@@ -37,7 +37,7 @@ function Login(props) {
     return (
 <section className="login h-screen w-full  bg-cover bg-no-repeat">
            <div className=" flex justify-center items-center h-screen">
-           <div className="bg-[#5B4C8D] p-5 border-[#422e85] text-white md:h-1 md:w-1/3 rounded-md ">
+           <div className="bg-[#5B4C8D] p-5 border-[#422e85] text-white md:h-1/2 md:w-1/3 rounded-md ">
                 <h1 className="text-3xl font-medium">Hey Hi,...</h1>
                 {ruser ? (
                     <p>I help you manage your activities after you login :)</p>
@@ -65,7 +65,7 @@ function Login(props) {
 
                         <div className="flex justify-center">
                         <button
-                            className="bg-[#8272DA] mt-5  w-24 p-2 font-bold text-2xl text-white rounded-md"
+                            className="bg-[#8272DA] mt-2  w-24 p-2 font-bold text-2xl text-white rounded-md"
                             onClick={checkUser}
                         >
                             Login
