@@ -29,39 +29,48 @@ function Signup(props)
 
 
     return(
-    <div className="bg-black p-10">
-        <div className="bg-[#EFEFEF] p-10 border rounded-md">
+        <section className="signup h-screen w-full  bg-cover bg-no-repeat">
+        <div className=" flex justify-center items-center h-screen">
+        <div className="bg-[#5B4C8D] p-5 border-[#422e85] text-white md:h-1/2 md:w-1/3 rounded-md ">
             <h1 className="text-3xl font-medium">Hey Hi</h1>
             <p>Sign up here :)</p>
 
-            <div className="flex flex-col gap-2 my-2">
+            <div className="flex flex-col gap-2 my-4 ">
                 <input 
                 type="text" 
-                className="w-52 border-black p-1 bg-transparent border rounded-md" 
+                className="w-90 border-[#B1E3E0] p-1 bg-transparent border rounded-md" 
                 placeholder="username"
                 onChange={handleUInput}
                 />
 
 <input 
                 type="text" 
-                className="w-52 border-black p-1 bg-transparent border rounded-md" 
+                className="w-90 border-[#B1E3E0] p-1 bg-transparent border rounded-md" 
                 placeholder="password"
                 onChange={handlePInput}
                 />
 
 <input 
                 type="text" 
-                className="w-52 border-black p-1 bg-transparent border rounded-md" 
-                placeholder="confirm password"/>
+                className="w-90 border-[#B1E3E0] p-1 bg-transparent border rounded-md" 
+                placeholder="Confirm password"/>
 
-                <button className="bg-[#FCA201] w-24 p-1 rounded-md" onClick={addUser}>
+                
+
+                <div className="flex justify-center">
+                <button className="bg-[#8272DA] border-[#6C0062] mt-5 mb-4 w-30 p-2 font-bold text-2xl text-[#B1E3E0] rounded-md" onClick={addUser}>
                     Sign Up
                 </button>
+                        </div>
+                        <div className="flex justify-center">
+                        <p>Already have an account? <Link to={"/"} className="underline">Login</Link>  </p>
 
-                <p>Already have an account? <Link to={"/"} className="underline">Login</Link>  </p>
+                        </div>
+
             </div>
         </div>
-    </div>)
+    </div>
+    </section>)
 }
 
 export default Signup

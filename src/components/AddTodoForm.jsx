@@ -20,11 +20,11 @@ function AddTodoForm(props)
 
     return(
         <div className="flex flex-col gap-3">
-        <h1 className="text-2xl font-medium">Manage Activities</h1>
+        <h1 className="text-2xl font-medium text-[#6C0062]">Manage Activities</h1>
 
         <div>
-        <input value={newactivity} onChange={handleChange} type="text" className="border border-black bg-transparent p-1" placeholder="Next Activity?"/>
-        <button onClick={addActivity} className="bg-black text-white p-1 border border-black">Add</button>
+        <input value={newactivity} onChange={handleChange} type="text" className="border rounded-md border-[#710069] bg-transparent p-3 placeholder-black focus:border-transparent" placeholder="Next Activity?"/>
+        <button onClick={addActivity} className="text-white bg-[#710069] p-3 rounded-md ">Add</button>
         </div>
 
     </div>

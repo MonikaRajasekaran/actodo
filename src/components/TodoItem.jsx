@@ -20,7 +20,7 @@ function TodoItem(props)
     return(
         <div className="flex justify-between">
         <p>{props.index+1}.{props.activity}</p>
-        <button className="text-red-500" onClick={()=>handleDelete(props.id)} >Delete</button>
+        <button className="text-white bg-[#710069] mb-2 p-2 rounded" onClick={()=>handleDelete(props.id)} >Delete</button>
         </div>
     )
 }
