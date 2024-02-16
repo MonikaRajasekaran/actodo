@@ -65,7 +65,7 @@ function Login(props) {
 
                         <div className="flex justify-center">
                         <button
-                            className="bg-[#8272DA] mt-2  w-24 p-2 font-bold text-2xl text-white rounded-md"
+                            className="bg-[#8272DA] w-24 p-2 font-bold text-2xl text-white rounded-md"
                             onClick={checkUser}
                         >
                             Login
