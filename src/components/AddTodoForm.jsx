@@ -24,7 +24,7 @@ function AddTodoForm(props)
 
         <div>
         <input value={newactivity} onChange={handleChange} type="text" className="border rounded-md border-[#710069] bg-transparent p-3 placeholder-black focus:border-transparent" placeholder="Next Activity?"/>
-        <button onClick={addActivity} className="text-white bg-[#710069] p-3 rounded-md ">Add</button>
+        <button onClick={addActivity} className="text-white bg-[#710069] p-3 rounded-md sm:w-7">Add</button>
         </div>
 
     </div>
