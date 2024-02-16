@@ -58,7 +58,7 @@ function Signup(props)
                 
 
                 <div className="flex justify-center">
-                <button className="bg-[#8272DA] border-[#6C0062] mt-5 mb-4 w-30 p-2 font-bold text-2xl text-[#B1E3E0] rounded-md" onClick={addUser}>
+                <button className="bg-[#8272DA] border-[#6C0062] mb-4 w-30 p-2 font-bold text-2xl text-[#B1E3E0] rounded-md" onClick={addUser}>
                     Sign Up
                 </button>
                         </div>
