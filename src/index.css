@@ -11,3 +11,8 @@
     background-image: url(./assets/background.png);
    
    }
+@media (min-width: 768px) {
+    .md\:h-screen {
+        height: auto;
+    }
+}
